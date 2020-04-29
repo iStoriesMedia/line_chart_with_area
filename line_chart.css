@@ -1,0 +1,54 @@
+g {
+font: normal 19px "Proto Grotesk";
+}
+
+.axis text {
+  font-size: 0.8em;
+}
+
+.axis line {
+  stroke: #000;
+}
+
+.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: #99372e;
+  stroke-width: 2px;
+}
+
+.area {
+  fill: #BF9F99;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.focus circle {
+    fill: #99372e;
+}
+
+.focus text {
+    font-size: 14px;
+}
+
+.tooltip {
+    fill: #F2EEE6;
+    stroke: #000;
+}
+
+.tooltip-date, .tooltip-likes {
+    font-weight: bold;
+}
+.area {
+    fill: #BF9F99;
+}
